@@ -1,4 +1,4 @@
-# List all functions defiend in script
+# List all functions defined in script
 
 Use `typeset -f` in a script can list all the functions previously  defined in that script. Use `typeset -F` will list only function names. It's useful in following situation:
 
