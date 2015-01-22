@@ -1,6 +1,6 @@
 # List all functions defiend in script
 
-Use `typeset -f` in a script can list all the functions previsously  defined in that script. Use `typeset -F` will list only function names. It's useful in following situation:
+Use `typeset -f` in a script can list all the functions previously  defined in that script. Use `typeset -F` will list only function names. It's useful in following situation:
 
 ```bash
 bundle() {
