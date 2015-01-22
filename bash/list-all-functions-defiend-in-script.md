@@ -12,7 +12,7 @@ reload() {
 }
 
 if [[ $# == 0 ]]; then
-  # List all avaliable commands in this script
+  # List all avaliable sub commands in this script
   typeset -F | awk '{print $3}'
   exit
 fi
